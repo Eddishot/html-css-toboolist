@@ -4,17 +4,40 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(128, 114, 114);
+    background-color: rgb(214, 202, 202);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .banner{
-    height: 60px;
+    background-color: white;
 }
+
 h1{
     display: inline-block;
-    align-items: center;
+    vertical-align: bottom;
+    height: 60px;
+    padding-top: 10px;
+    
+
+
+}
+.logo{
+    padding-left: 20px;
+}
+
+
+
+
+.lista{
+    padding-left: 20px;
+    height: 600px;
+    font-size:x-large
     background-color: white;
-    width: 1200px;
+    width: 650px;
+    margin: auto;
+    
+    
+    
 }
 
 .task{
@@ -24,13 +47,36 @@ h1{
     margin: auto;
     margin-bottom: 10px;
     margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    
+
+}
+
+.lista{
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    
+    
+
+}
+ul{
+    list-style-type: none;
 
 }
 
 .button{
     min-width:auto;
     border-radius: 5px;
+    
 }
+
+
+
+
+
+
 
 .menu{
     background-color: white;
@@ -45,6 +91,36 @@ h3{
 
 small{
     display: inline-block;
+    border-radius: 10px;
+    background-color: red;
+    padding: 5px;
+}
+
+#editorial{
+    background-color:lightblue;
+}
+
+#q1-goals{
+    background-color: blueviolet;
+}
+
+#recruiting{
+    background-color: darkgreen;
+}
+
+#mobile{
+    background-color: orange;
+}
+
+#websites{
+    background-color: violet;
+}
+
+#sales{
+    background-color:olive;
+}
+li{
+    margin: 10px;
 }
 
 
