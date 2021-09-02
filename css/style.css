@@ -41,13 +41,15 @@ h1{
     width: 650px;
     margin: auto;
     border-radius: 5px;
+    padding-top: 10px;
     padding-left: 20px;
     height: 600px;
-    font-size:x-large
+    font-size:large
 }
     
 ul{
     list-style-type: none;
+    
 
 }
     
